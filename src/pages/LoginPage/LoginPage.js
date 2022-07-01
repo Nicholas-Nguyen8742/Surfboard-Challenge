@@ -1,9 +1,13 @@
-import './LoginPage.scss';
+import Header from "../../components/Header/Header";
+import "./LoginPage.scss";
 
 export default function LoginPage() {
-    return (
-        <main>
-            
-        </main>
-    );
+  return (
+    <>
+      <Header />
+      <main>
+      
+      </main>
+    </>
+  );
 }
