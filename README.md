@@ -61,10 +61,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Tools & Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Favicon Converter](https://favicon.io/favicon-converter/): Image conversions for favicon.
+- [Color Pallete Generator](https://coolors.co/): Color pallete generator.
+- [SVG Converter](https://onlineconvertfree.com/convert-format/jpeg-to-svg/): SVG image converter. 
