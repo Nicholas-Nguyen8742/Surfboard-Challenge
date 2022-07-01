@@ -1,19 +1,62 @@
-@use './partials/typography' as *;
+@use "./partials/typography" as *;
+@use "./partials/mixins" as *;
+@use "./partials/variables" as *;
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 html,
-body{
-    font-family: 'Roboto', 'Arial', sans-serif;
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+h1 {
+  @include h1-mobile;
+  @include tablet {
+    @include h1-tablet;
+  }
+}
+
+h2 {
+  @include h2-mobile;
+  @include tablet {
+    @include h2-tablet;
+  }
+}
+
+h3 {
+  @include h3-mobile;
+  @include tablet {
+    @include h3-tablet;
+  }
+}
+
+p {
+  @include p1-mobile;
+  @include tablet {
+    @include p1-tablet;
+  }
+}
+
+label {
+  @include labels-mobile;
+  @include tablet {
+    @include labels-tablet;
+  }
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
+  @include labels-mobile;
+  @include tablet {
+    @include labels-tablet;
+  }
 }
 
 img {
-    cursor: pointer;
+  cursor: pointer;
 }
