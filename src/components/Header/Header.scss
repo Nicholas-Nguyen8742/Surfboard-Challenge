@@ -26,7 +26,7 @@
     }
     
     &__item-inactive {
-        color: $Secondary-Gray;
+        color: $Primary-White;
         height: 2.25rem;
         padding: 0.5rem 1rem;
         width: 100%;
@@ -35,7 +35,7 @@
         cursor: pointer;
         text-decoration: none;
         &:hover {
-            color: $Secondary-Gray;
+            color: $Primary-White;
             text-decoration: underline;
         }
         @include tablet {
@@ -43,7 +43,7 @@
         }
     }
     &__item-active{
-        color: $Secondary-Gray;
+        color: $Primary-White;
         background-color: rgba($Primary-Black, .5);
         height: 2.25rem;
         padding: 0.5rem 1rem;
