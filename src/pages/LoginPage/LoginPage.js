@@ -1,4 +1,5 @@
 import Header from "../../components/Header/Header";
+import LoginForm from "../../components/LoginForm/LoginForm";
 import "./LoginPage.scss";
 
 export default function LoginPage() {
@@ -6,7 +7,7 @@ export default function LoginPage() {
     <>
       <Header />
       <main>
-      
+        <LoginForm />
       </main>
     </>
   );
